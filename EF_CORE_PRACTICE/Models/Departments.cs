@@ -6,5 +6,6 @@ public class Department
     public string? DepartmentName { get; set; } = string.Empty;
     public string? Location { get; set; }
     public bool IsActive { get; set; }
+    public string? PhoneNumber { get; set; }
 }
-//  update database
+//  update databse

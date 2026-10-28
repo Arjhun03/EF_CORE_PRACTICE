@@ -38,6 +38,9 @@ namespace EF_CORE_PRACTICE.Migrations
                     b.Property<string>("Location")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("DepartmentId");
 
                     b.ToTable("Departments");
